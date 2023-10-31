@@ -1,0 +1,337 @@
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~ (master)
+$ ls
+\ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ ScStore/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'VirtualBox VMs'/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~ (master)
+$ \cd Documents
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents (master)
+$ ls
+'!qhlogs.doc'                            'Resume_Siddhesh Kadam(EXTC).pdf'
+ Committee.pdf                           'SIDDHESH_KADAM(EXTC).pdf'
+'Custom Office Templates'/               'SWAROOP SANJAY GAVANKAR.pdf'
+ DevOps/                                 'THE ELECTRICITY BILL SYSTEM.docx'
+ GitHub/                                 'THE ELECTRICITY BILL SYSTEM.pdf'
+ IMG_20230725_214955.jpg                  ashish/
+ IT53-Resume.pdf                          cetholltickert.pdf
+'KADAM SIDDHESH SANTOSH resume 1.1.pdf'   desktop.ini
+'KADAM SIDDHESH SANTOSH resume.docx'      don2sidresume.docx
+'KADAM SIDDHESH SANTOSH resume.pdf'       donsidresume.pdf
+'KADAM SIDDHESH SANTOSH.docx'             login.py
+'KADAM SIDDHESH SANTOSH.pdf'              login1.py
+'My Music'@                               res12.pdf
+'My Pictures'@                           'resume siddhesh.pdf'
+'My Videos'@                             'sid img2023.pdf'
+'PAKHARE SAHIL SUNIL.pdf'                 sidkadam.pdf
+'RESUME PAKHARE SAHIL SUNIL .docx'       'software development.pptx'
+'RESUME PAKHARE SAHIL SUNIL .pdf'        '~$KHARE SAHIL SUNIL.pdf'
+'Resume_Siddhesh Kadam (EXTC).pdf'
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents (master)
+$ ls DevOps
+Demo.txt.txt
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents (master)
+$ cd DevOps
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git init
+Initialized empty Git repository in C:/Users/Sahil/Documents/DevOps/.git/
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git config --global --list
+user.name=SahilPakhare
+user.email=sahilpakhare17@gmail.com
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git add Demo.txt
+fatal: pathspec 'Demo.txt' did not match any files
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git config --global user.name 'Sahil Pakhare'
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git config --global user.email 'sahilpakhare17@gmail.com'
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git config --global --list
+user.name=Sahil Pakhare
+user.email=sahilpakhare17@gmail.com
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git add Demo.txt
+fatal: pathspec 'Demo.txt' did not match any files
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git commit -m 'first commit'
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git add Demo1.txt
+fatal: pathspec 'Demo1.txt' did not match any files
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git add Demo1.txt
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git add Demo.txt
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Demo.txt
+        new file:   Demo1.txt
+
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git commit -m 'first commit'
+[master (root-commit) a282431] first commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Demo.txt
+ create mode 100644 Demo1.txt
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git log
+commit a28243192219bd113948da857f2f4a240f2598c2 (HEAD -> master)
+Author: Sahil Pakhare <sahilpakhare17@gmail.com>
+Date:   Tue Oct 31 08:28:28 2023 +0530
+
+    first commit
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git log --oneline
+a282431 (HEAD -> master) first commit
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git log --oneline Demo1.txt
+a282431 (HEAD -> master) first commit
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git log --oneline ^C
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git log --oneline a282431
+a282431 (HEAD -> master) first commit
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/GIT.git
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/JenkinsDemo.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/DevOps.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/SahilPakhare/GIT.git/' not found
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/DevOps.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/SahilPakhare/GIT.git/' not found
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SahilPakhare/GIT.git
+  Push  URL: https://github.com/SahilPakhare/GIT.git
+  HEAD branch: (unknown)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/GIT.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SahilPakhare/GIT.git
+  Push  URL: https://github.com/SahilPakhare/GIT.git
+  HEAD branch: (unknown)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git checkout
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/DevOps.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/GIT1.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote add origin https://github.com/SahilPakhare/GIT.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SahilPakhare/GIT.git
+  Push  URL: https://github.com/SahilPakhare/GIT.git
+  HEAD branch: (unknown)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (master)
+$ git branch -M main
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SahilPakhare/GIT.git
+  Push  URL: https://github.com/SahilPakhare/GIT.git
+  HEAD branch: (unknown)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git remote add origin https://github.com/SahilPakhare/DevOps.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git remote add origin https://github.com/SahilPakhare/DevOps1.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git remote add origin https://github.com/SahilPakhare/sahil.git
+error: remote origin already exists.
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SahilPakhare/GIT.git
+  Push  URL: https://github.com/SahilPakhare/GIT.git
+  HEAD branch: (unknown)
+
+Sahil@LAPTOP-0849KHNH MINGW64 ~/Documents/DevOps (main)
+$ git pull origin unknown
+fatal: couldn't find remote ref unknown
+
+Sahil@
